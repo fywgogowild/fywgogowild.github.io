@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fywgogowild.github.io/fr/categories/</loc>
+    <loc>https://fywgogowild.github.io/fr/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fywgogowild.github.io/categories/"
+                href="https://fywgogowild.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fywgogowild.github.io/fr/categories/"
+                href="https://fywgogowild.github.io/fr/blog/"
                 />
   </url><url>
     <loc>https://fywgogowild.github.io/fr/</loc>
@@ -24,6 +24,18 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://fywgogowild.github.io/fr/"
+                />
+  </url><url>
+    <loc>https://fywgogowild.github.io/fr/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fywgogowild.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fywgogowild.github.io/fr/series/"
                 />
   </url><url>
     <loc>https://fywgogowild.github.io/fr/tags/</loc>

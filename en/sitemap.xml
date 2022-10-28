@@ -5,6 +5,9 @@
     <loc>https://fywgogowild.github.io/posts/2020/10/%E9%96%8B%E5%A7%8B%E5%8B%95%E7%89%A9%E6%94%9D%E5%BD%B1%E8%87%B3%E4%BB%8A%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://fywgogowild.github.io/posts/2014/09/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fywgogowild.github.io/about/</loc>
     <lastmod>2022-10-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,19 +27,21 @@
     <loc>https://fywgogowild.github.io/posts/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fywgogowild.github.io/categories/</loc>
+    <loc>https://fywgogowild.github.io/series/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fywgogowild.github.io/fr/categories/"
+                href="https://fywgogowild.github.io/fr/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fywgogowild.github.io/categories/"
+                href="https://fywgogowild.github.io/series/"
                 />
   </url><url>
     <loc>https://fywgogowild.github.io/tags/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -46,6 +51,27 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://fywgogowild.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://fywgogowild.github.io/tags/%E5%8B%95%E7%89%A9%E6%94%9D%E5%BD%B1/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fywgogowild.github.io/series/%E5%8B%95%E7%89%A9%E6%94%9D%E5%BD%B1/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fywgogowild.github.io/series/hugo-101/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fywgogowild.github.io/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fywgogowild.github.io/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fywgogowild.github.io/blog/"
                 />
   </url>
 </urlset>
