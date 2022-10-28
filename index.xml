@@ -7,59 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://fywgogowild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fywgogowild.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://fywgogowild.github.io/posts/2014/09/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>開始動物攝影至今的一些心得</title>
+      <link>https://fywgogowild.github.io/posts/2020/10/%E9%96%8B%E5%A7%8B%E5%8B%95%E7%89%A9%E6%94%9D%E5%BD%B1%E8%87%B3%E4%BB%8A%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fywgogowild.github.io/posts/2014/09/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://fywgogowild.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fywgogowild.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://fywgogowild.github.io/posts/2020/10/%E9%96%8B%E5%A7%8B%E5%8B%95%E7%89%A9%E6%94%9D%E5%BD%B1%E8%87%B3%E4%BB%8A%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BF%83%E5%BE%97/</guid>
+      <description>從 2018 年的北海道之旅後，馬上就去動物園辦了年卡，接下來的每一個六日，幾乎不間斷地到動物園拍照。原先純粹只是喜歡小貓熊，沒想到後來就認真喜歡上拍攝動物，應該說，是野生動物。
+雖然台灣有得天獨厚的自然環境，山林間也有不同物種的生物，但作為動物攝影初心者，練習拍攝技術是現階段最重要的事，所以上網做了很多功課，第一步就是器材的準備。
+器材 手邊只有一台買了多年的老 APSC 機身 — Canon 550D， 還有一顆 50mm 定焦和 Sigma 17–50mm 的變焦鏡，完全不夠！要拍攝野生動物，長鏡頭是標配，所以我開始租借鏡頭，嘗試不同焦段，練練手感，等找到拍得順手的鏡頭後，再自己買一顆。
+前後共借過 18–200mm、70–200mm、100–400mm，用的最順的還是大白兔，不過今年因緣際會從一位軍事攝影師手上買了 400mm 定焦，入手人生第一顆砲，當然這又是後話了。
+拍攝地點 考慮到交通方便、可以常常去的地點，動物園就是最好的選擇，其次是大安森林公園、市郊的自然保護區等等。不過在《萬獸之靈—野生動物攝影書》中，攝影師王放就分享到自己最常在「城市」拍攝野生鳥類。的確，何必捨近求遠，動物就在你身邊啊！
+不過，算是無心插柳，台北的租屋處就位在文山區，所以動物園就成為我最常練功的地方。
+要習慣「徒勞無功」 我永遠忘不了用 18–200mm 第一次成功霧化鐵籠，成功拍到籠內動物的興奮之情。早期在拍攝的時候，不管怎麼拍都相當滿意，但隨著越拍越多，也 follow 許多野生動物攝影師後，回頭看之前拍的照片，差不多都可以刪掉了，這可能就是進步吧？（自己說）
+總之，現在最重要的就是持續練功，只為了在機會來臨前，有能力捕捉到想要的、珍貴的畫面。目標是這幾年內，跟著小貓熊保育團體，一起去尼泊爾喜馬拉雅山麓拍野生小貓熊。
+拍攝野生動物要很清楚一件事，即便是專業攝影師，也可能拍很久都等不到一個畫面。在動物園的好處，是動物大部分都在你的視線範圍內，但即便如此，要拍得好也是不容易。不論是動物當下的狀態、光線、所在位置…變因很多。
+我也從早期所有動物拍一輪，到現在只針對 1、2 種動物拍，一個點待上 2–3 個小時已是常態，在這過程中，不斷去調整參數、思考不同的構圖…即便找到手感，常常還是沒有滿意的照片，這種無功而返的狀態，算是跟專業動物攝影師有某種程度的「量子糾纏」了吧！XD
+老實說，若真正到野外去拍，等待還未必有成果，還得隱蔽自己不被動物發現，在各種惡劣的環境下，獨自拍攝必須得耐著住惡劣的各種氣候、環境，跟這種真正在作戰的相比，站個 2–3 個小時實在是小 case 了。（根本無法比擬）
+使用鏡頭的思路 長焦是拍攝野生動物的標配，除了能在一定的距離內，不打擾動物進行拍攝，在動物園，他還可以幫你虛化籠子呢！基本中的基本，200mm 以上是一定要的。
+除了長焦外，有次帶了 50mm 定焦去拍，跳脫長焦以動物為本體的拍法，那次更著重在背景與動物之間的關係。不同的器材有不同的構圖思考，這也是攝影有趣的地方。
+今年，因為朋友的推薦，跟一位軍事攝影師買了一顆 400mm 的長焦，美中不足的地方是這顆最大光圈才 f5.6，所以我會盡量早一點拍。作為練手用的大砲，這顆已經很好用了。後來還拿去拍了超級月亮、日環食等天文照片，意外多了很多樂趣。
+但話說回來，APSC 加上 400mm 定焦，等效 600mm。看起來雖然不錯，但因為動物園環境的限制，必須站很遠才有辦法拍，麻煩之處在於人群，不是區區鐵籠這麼容易的，尤其是小貓熊區前面能夠站的距離很短，對於定焦砲來說，是不容易拍的。
+剛入手定焦砲時非常不習慣，但朋友跟我說，使用定焦鏡頭，就要用定焦的思考方式，若要認真往攝影之路走，這樣的思維是不可少的，必須得習慣。
+而最常被用來拍攝昆蟲的微距鏡和廣角鏡，目前還沒用過，以後再來試試。
+熱愛動物是根本 野生動物攝影師的必要條件是什麼？中國野生動物攝影家奚志農曾在知乎 Live 接受網友提問時說：
+熱愛是最好的老師，具備對動物的基本概念與常識，對動物要有不顧一切的愛。
+許多野生動物攝影師本身都有生物相關背景，像我這樣的文組生要了解拍攝對象 — 動物，就必須自學，除了拍攝技能外，多了解生物相關知識是必備條件，唯有了解牠們，才能更好地掌握牠們的習性、拍好照片外，也能避免犯下對動物造成傷害的錯誤。
+想寫動物攝影相關文章很久了，但一直只想著等以後架站後再寫，所以拖到現在，之後會不定期發文，分享國內外的動物攝影作品、書籍和學習動物攝影過程中的所見所聞與心得。
+這兩年 follow 很多國內外的野生動物攝影師的IG、粉專外，也加入了許多動物相關社團，看得越多，越不好意思分享自己拍的照片，實在是有點汗顏啊！</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://fywgogowild.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://fywgogowild.github.io/about/</guid>
       <description>紀錄一些生活周遭和野外邂逅的動物們。</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://fywgogowild.github.io/posts/2014/04/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fywgogowild.github.io/posts/2014/04/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://fywgogowild.github.io/posts/2014/04/getting-started-with-hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fywgogowild.github.io/posts/2014/04/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
     </item>
     
   </channel>
