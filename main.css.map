@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Volumes/HD/文件 (非icloud)/Github網站更新/exampleSite",
+	"sourceRoot": "/Volumes/HD/文件 (非icloud)/Github網站更新/editing",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
