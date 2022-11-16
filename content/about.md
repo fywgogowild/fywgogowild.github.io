@@ -7,3 +7,4 @@ aliases = ["about-zh-tw","about-hugo","contact"]
 +++
 
 寫自介好難，容我先擱著～XD
+測試一下外掛
