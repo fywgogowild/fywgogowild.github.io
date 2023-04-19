@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Volumes/HD/雲端空間/Dropbox (個人)/網站更新/editing",
+	"sourceRoot": "/Users/kimchi9527/Library/CloudStorage/Dropbox/網站更新/editing",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
