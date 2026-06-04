@@ -12,7 +12,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 googleAnalytics = "G-TYZJDNL8ND"
-disqusShortname = "fywgogowild"
+disqusShortname = ""
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -35,10 +35,10 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/posts/:filename"
 
 [author]
-  name = "Fang-yi Wu"
+  name = "Ryuushouin Touga"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -56,13 +56,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Animals Photography Note"
+  description = "Wildlife Photography Notes"
   keywords = "動物攝影,Wildlife Photography"
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Animals Photography Note"
+  homeSubtitle = "Wildlife Photography Notes"
 
   # Set a background for the homepage
   backgroundImage = "https://live.staticflickr.com/65535/52458564594_5705259066_o.jpg"
@@ -162,17 +162,12 @@ disableHugoGeneratorInject = false
     
   [[params.social]]
     name = "instagram"
-    url  = "https://www.instagram.com/fywkimchiwildlife/"
+    url  = "https://www.instagram.com/fywgogowild/"
 
 [languages]
   [languages.en]
-    subtitle  = "Animals Photography Note"
+    subtitle  = "Wildlife Photography Notes"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  [languages.fr]
-    subtitle  = "Animals Photography Note"
-    weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]

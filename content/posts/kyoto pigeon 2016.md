@@ -1,19 +1,20 @@
 ---
 author: 
- name: "Fang-yi Wu"
+ name: "Ryuushouin Touga"
 date: 2022-04-15
-linktitle: kyoto pigeon 2016
+linktitle: kyoto-pigeon16
 type:
 - post
 - posts
 title: 從京都鴿子聊畫面的「意外性」
 weight: 10
 series:
-- 動物攝影
+- 生態攝影
 tags:
-- 動物攝影
+- 生態攝影
 - 構圖
 - Michael Yamashita
+- 日本
 ---
 
 最近有空的時候會整理照片，意外發現一些自己還蠻喜歡的照片。
@@ -21,6 +22,7 @@ tags:
 在我瘋狂著迷於鴿子的年代，連到國外都在尋找鴿子的蹤影。這張是我 2016 年第一次到日本玩時，在京都嵐山拍的。在渡月橋旁邊有非常多鴿子，多到讓我流連忘返。
 
 ![](https://live.staticflickr.com/1499/24838076102_7ebf89c397_b.jpg)
+ *（41mm  1/640s  f/5  ISO100）*
 
 在眾多鴿照中，意外的這張讓我最喜歡，路人的經過讓整個構圖多了一點不可預期的生動感，真的是可遇不可求的時刻。
 
