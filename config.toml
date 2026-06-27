@@ -40,13 +40,14 @@ disableHugoGeneratorInject = false
 [author]
   name = "Ryuushouin Touga"
 
-[blackfriday]
-  hrefTargetBlank = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+    tag    = "tags"
+    series = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
