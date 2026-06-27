@@ -33,4 +33,5 @@ content:
         type: boolean
       - name: body
         label: 內文
+        description: "內文圖說語法：切換到 Source 模式，在圖片網址後加引號 → ![描述](網址 \"圖說文字\")"
         type: rich-text
