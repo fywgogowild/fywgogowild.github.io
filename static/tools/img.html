@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>圖片格式產生器</title>
+  <title>寫作工具</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -12,7 +12,7 @@
       color: #eee;
       min-height: 100vh;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       padding: 24px;
     }
@@ -21,11 +21,28 @@
       border-radius: 12px;
       padding: 32px;
       width: 100%;
-      max-width: 480px;
+      max-width: 520px;
     }
-    h1 { font-size: 1.1rem; margin-bottom: 24px; color: #fff; }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+    .tab {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      background: #1b1c1d;
+      color: #aaa;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .tab.active { background: #ee4949; color: #fff; }
+    .panel { display: none; }
+    .panel.active { display: block; }
     label { display: block; font-size: 0.8rem; color: #aaa; margin-bottom: 6px; }
-    input {
+    input, textarea {
       width: 100%;
       background: #1b1c1d;
       border: 1px solid #3a3b3c;
@@ -35,8 +52,9 @@
       font-size: 0.95rem;
       margin-bottom: 16px;
       outline: none;
+      resize: vertical;
     }
-    input:focus { border-color: #ee4949; }
+    input:focus, textarea:focus { border-color: #ee4949; }
     .output-wrap { position: relative; margin-top: 8px; }
     output {
       display: block;
@@ -44,11 +62,21 @@
       border: 1px solid #3a3b3c;
       border-radius: 8px;
       padding: 12px 44px 12px 12px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-family: monospace;
       color: #7ec8a4;
       word-break: break-all;
+      white-space: pre-wrap;
       min-height: 48px;
+    }
+    .platform-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      background: #3a3b3c;
+      color: #aaa;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 10px;
     }
     button.copy {
       position: absolute;
@@ -64,42 +92,129 @@
     }
     button.copy:active { background: #c73c3c; }
     .copied { background: #4caf50 !important; }
+    .note { font-size: 0.78rem; color: #888; margin-top: 12px; line-height: 1.5; }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>圖片格式產生器</h1>
-    <label>圖片網址</label>
-    <input id="url" type="url" placeholder="https://..." oninput="generate()">
-    <label>描述（alt text）</label>
-    <input id="alt" type="text" placeholder="大安森林公園的野鳥" oninput="generate()">
-    <label>圖說（顯示在圖片下方）</label>
-    <input id="caption" type="text" placeholder="200mm  1/1000s  f/4  ISO800" oninput="generate()">
-    <label>結果</label>
-    <div class="output-wrap">
-      <output id="result">—</output>
-      <button class="copy" onclick="copy()">複製</button>
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('img')">圖片格式</button>
+      <button class="tab" onclick="switchTab('embed')">社群嵌入</button>
+    </div>
+
+    <!-- 圖片格式 -->
+    <div id="panel-img" class="panel active">
+      <label>圖片網址</label>
+      <input id="url" type="url" placeholder="https://..." oninput="generateImg()">
+      <label>描述（alt text）</label>
+      <input id="alt" type="text" placeholder="大安森林公園的野鳥" oninput="generateImg()">
+      <label>圖說（顯示在圖片下方）</label>
+      <input id="caption" type="text" placeholder="200mm  1/1000s  f/4  ISO800" oninput="generateImg()">
+      <label>結果</label>
+      <div class="output-wrap">
+        <output id="img-result">—</output>
+        <button class="copy" onclick="copyOutput('img-result')">複製</button>
+      </div>
+    </div>
+
+    <!-- 社群嵌入 -->
+    <div id="panel-embed" class="panel">
+      <label>社群貼文網址</label>
+      <input id="social-url" type="url" placeholder="https://www.youtube.com/watch?v=..." oninput="generateEmbed()">
+      <div id="platform-badge" class="platform-badge" style="display:none"></div>
+      <label>結果</label>
+      <div class="output-wrap">
+        <output id="embed-result">—</output>
+        <button class="copy" onclick="copyOutput('embed-result')">複製</button>
+      </div>
+      <p class="note" id="embed-note"></p>
     </div>
   </div>
+
   <script>
-    function generate() {
+    function switchTab(id) {
+      document.querySelectorAll('.tab').forEach((t, i) => t.classList.toggle('active', ['img','embed'][i] === id));
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('panel-' + id).classList.add('active');
+    }
+
+    // 圖片格式
+    function generateImg() {
       const url = document.getElementById('url').value.trim();
       const alt = document.getElementById('alt').value.trim();
       const caption = document.getElementById('caption').value.trim();
-      const result = document.getElementById('result');
+      const result = document.getElementById('img-result');
       if (!url) { result.textContent = '—'; return; }
       result.textContent = caption
         ? `![${alt}](${url} "${caption}")`
         : `![${alt}](${url})`;
     }
-    function copy() {
-      const text = document.getElementById('result').textContent;
-      if (text === '—') return;
+
+    // 社群嵌入
+    function generateEmbed() {
+      const raw = document.getElementById('social-url').value.trim();
+      const badge = document.getElementById('platform-badge');
+      const result = document.getElementById('embed-result');
+      const note = document.getElementById('embed-note');
+      badge.style.display = 'none';
+      note.textContent = '';
+      if (!raw) { result.textContent = '—'; return; }
+
+      // YouTube
+      let yt = raw.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+      if (yt) {
+        badge.textContent = 'YouTube'; badge.style.display = 'inline-block';
+        result.textContent = `{{< youtube ${yt[1]} >}}`;
+        note.textContent = '貼到 Pages CMS Source 模式';
+        return;
+      }
+
+      // Twitter / X
+      let tw = raw.match(/(?:twitter\.com|x\.com)\/(\w+)\/status\/(\d+)/);
+      if (tw) {
+        badge.textContent = 'Twitter / X'; badge.style.display = 'inline-block';
+        result.textContent = `{{< twitter user="${tw[1]}" id="${tw[2]}" >}}`;
+        note.textContent = '貼到 Pages CMS Source 模式';
+        return;
+      }
+
+      // Instagram
+      let ig = raw.match(/instagram\.com\/(?:p|reel)\/([A-Za-z0-9_-]+)/);
+      if (ig) {
+        badge.textContent = 'Instagram'; badge.style.display = 'inline-block';
+        const clean = raw.split('?')[0].replace(/\/?$/, '/');
+        result.textContent = `<blockquote class="instagram-media" data-instgrm-permalink="${clean}" data-instgrm-version="14"></blockquote>\n<script async src="//www.instagram.com/embed.js"><\/script>`;
+        note.textContent = '貼到 Pages CMS Source 模式';
+        return;
+      }
+
+      // Threads
+      let th = raw.match(/threads\.net\/@[\w.]+\/post\/([A-Za-z0-9_-]+)/);
+      if (th) {
+        badge.textContent = 'Threads'; badge.style.display = 'inline-block';
+        const clean = raw.split('?')[0].replace(/\/?$/, '/');
+        result.textContent = `<blockquote class="text-post-media" data-text-post-permalink="${clean}"></blockquote>\n<script async src="https://www.threads.net/embed/widget.js"><\/script>`;
+        note.textContent = '貼到 Pages CMS Source 模式';
+        return;
+      }
+
+      badge.style.display = 'none';
+      result.textContent = '無法辨識平台';
+      note.textContent = '目前支援：YouTube、Twitter/X、Instagram、Threads';
+    }
+
+    function copyOutput(id) {
+      const text = document.getElementById(id).textContent;
+      if (text === '—' || text === '無法辨識平台') return;
       navigator.clipboard.writeText(text);
-      const btn = document.querySelector('.copy');
-      btn.textContent = '已複製！';
-      btn.classList.add('copied');
-      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 1500);
+      const btns = document.querySelectorAll('.copy');
+      btns.forEach(btn => {
+        if (btn.onclick.toString().includes(id)) {
+          btn.textContent = '已複製！';
+          btn.classList.add('copied');
+          setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 1500);
+        }
+      });
     }
   </script>
 </body>
