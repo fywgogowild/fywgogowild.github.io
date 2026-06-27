@@ -148,4 +148,4 @@ with gr.Blocks(title="影片調色預覽器") as app:
                     outputs=apply_status)
 
 if __name__ == "__main__":
-    app.launch(open_browser=True)
+    app.launch(inbrowser=True)
