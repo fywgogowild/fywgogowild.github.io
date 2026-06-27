@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/kimchi9527/Library/CloudStorage/Dropbox/網站更新/editing",
+	"sourceRoot": "/home/runner/work/fywgogowild.github.io/fywgogowild.github.io",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

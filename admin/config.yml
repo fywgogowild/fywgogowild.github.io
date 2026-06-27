@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: fywgogowild/fywgogowild.github.io
+  branch: source
+  auth_type: pkce
+  app_id: PLACEHOLDER
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+      - {label: "標籤", name: "tags", widget: "list", required: false}
+      - {label: "系列", name: "series", widget: "list", required: false}
+      - {label: "草稿", name: "draft", widget: "boolean", default: false}
+      - {label: "內文", name: "body", widget: "markdown"}
