@@ -14,6 +14,9 @@ content:
       - name: date
         label: 日期
         type: date
+      - name: cover
+        label: 封面圖片
+        type: image
       - name: tags
         label: 標籤
         type: string
