@@ -21,11 +21,11 @@ tags:
 
 每天一早，阿珠鳩就會到陽台報到，看起來是一對感情很好的鳩夫婦。
 
-![](https://i.imgur.com/PrGOAYr.jpg)
+![陽台上的珠頸斑鳩](https://i.imgur.com/PrGOAYr.jpg)
 
 
 
-![](https://i.imgur.com/Ct7bvid.jpg)
+![陽台上的珠頸斑鳩](https://i.imgur.com/Ct7bvid.jpg)
 
 我在家時，牠們通常會在定點稍作休息，不然就是在曬衣架上走動；但我不在家時，牠們有時候會拉泡屎送我，不然就是叼一些廢廢的築巢材料來，通常就是一兩根樹枝，隨便鳩的名號真不是浪得虛名。
 
