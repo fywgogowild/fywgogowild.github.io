@@ -93,6 +93,34 @@
     button.copy:active { background: #c73c3c; }
     .copied { background: #4caf50 !important; }
     .note { font-size: 0.78rem; color: #888; margin-top: 12px; line-height: 1.5; }
+    .other-platforms {
+      margin-top: 24px;
+      border-top: 1px solid #3a3b3c;
+      padding-top: 16px;
+    }
+    .other-title {
+      font-size: 0.78rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+    .other-item { margin-bottom: 12px; }
+    .other-name {
+      font-size: 0.82rem;
+      color: #ccc;
+      margin-bottom: 3px;
+    }
+    .other-desc {
+      font-size: 0.78rem;
+      color: #777;
+      line-height: 1.5;
+    }
+    .other-desc code {
+      font-family: monospace;
+      color: #7ec8a4;
+      font-size: 0.76rem;
+    }
   </style>
 </head>
 <body>
@@ -128,6 +156,35 @@
         <button class="copy" onclick="copyOutput('embed-result')">複製</button>
       </div>
       <p class="note" id="embed-note"></p>
+
+      <div class="other-platforms">
+        <div class="other-title">其他平台（手動）</div>
+
+        <div class="other-item">
+          <div class="other-name">Facebook 貼文</div>
+          <div class="other-desc">到貼文頁面，右上角選「嵌入」，複製產生的 <code>&lt;iframe&gt;</code> 整段貼到 Source 模式。</div>
+        </div>
+
+        <div class="other-item">
+          <div class="other-name">TikTok</div>
+          <div class="other-desc">到影片頁面，點「分享 → 嵌入」，複製 <code>&lt;blockquote&gt; + &lt;script&gt;</code> 整段貼到 Source 模式。</div>
+        </div>
+
+        <div class="other-item">
+          <div class="other-name">Vimeo</div>
+          <div class="other-desc">到影片頁面，點「分享 → 嵌入」，複製 <code>&lt;iframe&gt;</code> 整段貼到 Source 模式。</div>
+        </div>
+
+        <div class="other-item">
+          <div class="other-name">Spotify</div>
+          <div class="other-desc">到歌曲／播放清單，點「⋯ → 分享 → 嵌入」，複製 <code>&lt;iframe&gt;</code> 整段貼到 Source 模式。</div>
+        </div>
+
+        <div class="other-item">
+          <div class="other-name">Google Maps</div>
+          <div class="other-desc">到地點，點「分享 → 嵌入地圖」，複製 <code>&lt;iframe&gt;</code> 整段貼到 Source 模式。</div>
+        </div>
+      </div>
     </div>
   </div>
 
