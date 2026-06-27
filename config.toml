@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   # 
   description = "Wildlife Photography Notes"
   keywords = "動物攝影,Wildlife Photography"
-  images = ["https://live.staticflickr.com/65535/52458564594_5705259066_o.jpg"]
+  images = ["https://fywgogowild.github.io/uploads/og-cover.jpg"]
   authorName = "Ryuushouin Touga"
 
   # Home subtitle of the index page.
