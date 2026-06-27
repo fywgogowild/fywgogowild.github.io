@@ -2,7 +2,7 @@
 title: 從京都鴿子聊畫面的「意外性」
 date: 2022-04-15
 cover: https://live.staticflickr.com/1499/24838076102_7ebf89c397_b.jpg
-coverCaption: "41mm  1/640s  f/5  ISO100"
+coverCaption: （41mm  1/640s  f/5  ISO100）
 tags:
   - 生態攝影
   - 構圖
