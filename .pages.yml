@@ -17,6 +17,9 @@ content:
       - name: cover
         label: 封面圖片
         type: image
+      - name: coverCaption
+        label: 封面圖說
+        type: string
       - name: tags
         label: 標籤
         type: string
