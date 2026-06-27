@@ -1,23 +1,14 @@
 ---
-author: 
- name: "Ryuushouin Touga"
-date: 2020-10-19
-linktitle: start wildlife photography
-type:
-- post
-- posts
 title: 開始動物攝影至今的一些心得
-weight: 10
-cover: "https://cdn-images-1.medium.com/max/1600/1*IHoS2hviA4gtSn3QMvefNQ.jpeg"
-coverCaption: "200mm  1/400s  f/5.6  ISO1600"
-series:
-- 生態攝影
+date: 2020-10-19
+cover: https://cdn-images-1.medium.com/max/1600/1*IHoS2hviA4gtSn3QMvefNQ.jpeg
 tags:
-- 生態攝影
-- 器材設備
+  - 生態攝影
+  - 器材設備
+series:
+  - 生態攝影
+draft: false
 ---
-
-
 從 2018 年的北海道之旅後，馬上就去動物園辦了年卡，接下來的每一個六日，幾乎不間斷地到動物園拍照。原先純粹只是喜歡小貓熊，沒想到後來就認真喜歡上拍攝動物，應該說，是野生動物。
 
 雖然台灣有得天獨厚的自然環境，山林間也有不同物種的生物，但作為動物攝影初心者，練習拍攝技術是現階段最重要的事，所以上網做了很多功課，第一步就是器材的準備。
@@ -25,9 +16,6 @@ tags:
 ## 器材
 
 手邊只有一台買了多年的老 APSC 機身 — Canon 550D， 還有一顆 50mm 定焦和 Sigma 17–50mm 的變焦鏡，完全不夠！要拍攝野生動物，長鏡頭是標配，所以我開始租借鏡頭，嘗試不同焦段，練練手感，等找到拍得順手的鏡頭後，再自己買一顆。
-
-![動物園拍攝的小動物，200mm](https://cdn-images-1.medium.com/max/1600/1*IHoS2hviA4gtSn3QMvefNQ.jpeg)
- *（200mm  1/400s  f/5.6  ISO1600）*
 
 前後共借過 18–200mm、70–200mm、100–400mm，用的最順的還是大白兔，不過今年因緣際會從一位軍事攝影師手上買了 400mm 定焦，入手人生第一顆砲，當然這又是後話了。
 
