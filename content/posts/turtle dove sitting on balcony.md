@@ -1,28 +1,17 @@
 ---
-author: 
- name: "Ryuushouin Touga"
-date: 2023-01-08
-linktitle: turtle dove sitting on balcony
-type:
-- post
-- posts
 title: 陽台上的斑鳩
-weight: 10
-cover: "https://i.imgur.com/PrGOAYr.jpg"
-series:
-- 生態攝影
+date: 2023-01-08
+cover: https://i.imgur.com/PrGOAYr.jpg
 tags:
-- Turtle Dove
-- 珠頸斑鳩
-- 生態攝影
-- 城市中的動物
+  - Turtle Dove
+  - 珠頸斑鳩
+  - 生態攝影
+  - 城市中的動物
+series:
+  - 生態攝影
+draft: false
 ---
-
 每天一早，阿珠鳩就會到陽台報到，看起來是一對感情很好的鳩夫婦。
-
-![陽台上的珠頸斑鳩](https://i.imgur.com/PrGOAYr.jpg)
-
-
 
 ![陽台上的珠頸斑鳩](https://i.imgur.com/Ct7bvid.jpg)
 
