@@ -24,7 +24,7 @@ draft: false
 
 考慮到交通方便、可以常常去的地點，動物園就是最好的選擇，其次是大安森林公園、市郊的自然保護區等等。不過在《萬獸之靈—野生動物攝影書》中，攝影師王放就分享到自己最常在「城市」拍攝野生鳥類。的確，何必捨近求遠，動物就在你身邊啊！
 
-![大安森林公園拍攝的野鳥，200mm](https://cdn-images-1.medium.com/max/1600/1*K3v-wCYEMBvrbA72rNXdUA.jpeg "200mm  1/1000s  f/4  ISO800")
+![白掌長臂猿](https://cdn-images-1.medium.com/max/1600/1*K3v-wCYEMBvrbA72rNXdUA.jpeg "200mm  1/1000s  f/4  ISO800")
 
 不過，算是無心插柳，台北的租屋處就位在文山區，所以動物園就成為我最常練功的地方。
 
