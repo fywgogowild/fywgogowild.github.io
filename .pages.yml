@@ -1,0 +1,30 @@
+media:
+  input: static/uploads
+  output: /uploads
+
+content:
+  - name: posts
+    label: 文章
+    path: content/posts
+    type: collection
+    fields:
+      - name: title
+        label: 標題
+        type: string
+      - name: date
+        label: 日期
+        type: date
+      - name: tags
+        label: 標籤
+        type: string
+        list: true
+      - name: series
+        label: 系列
+        type: string
+        list: true
+      - name: draft
+        label: 草稿
+        type: boolean
+      - name: body
+        label: 內文
+        type: rich-text
