@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>圖片格式產生器</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #1b1c1d;
+      color: #eee;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: #252627;
+      border-radius: 12px;
+      padding: 32px;
+      width: 100%;
+      max-width: 480px;
+    }
+    h1 { font-size: 1.1rem; margin-bottom: 24px; color: #fff; }
+    label { display: block; font-size: 0.8rem; color: #aaa; margin-bottom: 6px; }
+    input {
+      width: 100%;
+      background: #1b1c1d;
+      border: 1px solid #3a3b3c;
+      border-radius: 8px;
+      padding: 10px 12px;
+      color: #eee;
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+      outline: none;
+    }
+    input:focus { border-color: #ee4949; }
+    .output-wrap { position: relative; margin-top: 8px; }
+    output {
+      display: block;
+      background: #1b1c1d;
+      border: 1px solid #3a3b3c;
+      border-radius: 8px;
+      padding: 12px 44px 12px 12px;
+      font-size: 0.85rem;
+      font-family: monospace;
+      color: #7ec8a4;
+      word-break: break-all;
+      min-height: 48px;
+    }
+    button.copy {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: #ee4949;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      cursor: pointer;
+    }
+    button.copy:active { background: #c73c3c; }
+    .copied { background: #4caf50 !important; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>圖片格式產生器</h1>
+    <label>圖片網址</label>
+    <input id="url" type="url" placeholder="https://..." oninput="generate()">
+    <label>描述（alt text）</label>
+    <input id="alt" type="text" placeholder="大安森林公園的野鳥" oninput="generate()">
+    <label>圖說（顯示在圖片下方）</label>
+    <input id="caption" type="text" placeholder="200mm  1/1000s  f/4  ISO800" oninput="generate()">
+    <label>結果</label>
+    <div class="output-wrap">
+      <output id="result">—</output>
+      <button class="copy" onclick="copy()">複製</button>
+    </div>
+  </div>
+  <script>
+    function generate() {
+      const url = document.getElementById('url').value.trim();
+      const alt = document.getElementById('alt').value.trim();
+      const caption = document.getElementById('caption').value.trim();
+      const result = document.getElementById('result');
+      if (!url) { result.textContent = '—'; return; }
+      result.textContent = caption
+        ? `![${alt}](${url} "${caption}")`
+        : `![${alt}](${url})`;
+    }
+    function copy() {
+      const text = document.getElementById('result').textContent;
+      if (text === '—') return;
+      navigator.clipboard.writeText(text);
+      const btn = document.querySelector('.copy');
+      btn.textContent = '已複製！';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 1500);
+    }
+  </script>
+</body>
+</html>
