@@ -3,7 +3,7 @@ backend:
   repo: fywgogowild/fywgogowild.github.io
   branch: source
   auth_type: pkce
-  app_id: PLACEHOLDER
+  app_id: Ov23liMhyJvtE1IMmxDb
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
