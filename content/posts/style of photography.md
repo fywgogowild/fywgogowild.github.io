@@ -1,26 +1,14 @@
 ---
-author: 
- name: "Ryuushouin Touga"
-date: 2023-02-09
-linktitle: style of photography
-type:
-- post
-- posts
 title: 拍攝風格重要嗎？原來一直以來都搞錯重點
-weight: 10
-cover: "https://i.imgur.com/cZveWiP.jpg"
-coverCaption: "圖：文山森林公園的白頭翁，400mm  1/500s  f/5.6  ISO3200"
-series:
-- 攝影風格
+date: 2023-02-09
+cover: https://i.imgur.com/cZveWiP.jpg
 tags:
-- 攝影風格
-- 生態攝影
+  - 攝影風格
+  - 生態攝影
+series:
+  - 攝影風格
+draft: false
 ---
-
-![文山森林公園的白頭翁](https://i.imgur.com/cZveWiP.jpg)
-
-*（圖：文山森林公園的白頭翁，400mm  1/500s  f/5.6  ISO3200）*
-
 到底，拍動物這件事，要往什麼方向走？跟最早「有拍到就很開心」相比，隨著追蹤的攝影師越多，也開始困惑起「拍攝目的」與「拍攝風格」這件事。像是應該著重在拍攝細節或是動物與環境之間的關係？修圖時，應該忠於原色，還是統一色調？甚至，是否要捨棄動物園與貓貓狗狗，將重心放在「野生動物」攝影上？於是我開始研究一些在 Instagram 追蹤的攝影師們。
 
 ## 著重在動物與環境之間的關係
@@ -39,7 +27,7 @@ tags:
 
 ## 關注喜愛的特定動物
 
-這在 Instagram 也是大宗，像我自己超級喜愛的小貓熊，因為可愛的顏值，所以在國內外有大量的攝影作品，像是在日本生活，活躍於各大動物園的義大利攝影師 **[Daniele Bragaglio](https://www.instagram.com/daniele.tokyo/)**，或是專注拍札幌圓山動物園小貓熊的 **[キャットテイル ](https://www.instagram.com/cattail.sapporo/)** 等等，族繁不及備載；另外像是拍麻雀的 **[中野 さとる](https://www.instagram.com/onakan_s/)**，拍海洋生物的 **[中村庸夫](https://www.instagram.com/tsuneo_nakamura/)**，拍鴿子的 **[Caitlin Shann](https://www.instagram.com/featherunderground/)**，還有各式各樣的帳號，記錄著他們所愛的動物們，像是大象、老虎、鬣狗、兩棲類動物、昆蟲...等等。看到每種動物都有人這麼愛著，就覺得很感動啊！
+這在 Instagram 也是大宗，像我自己超級喜愛的小貓熊，因為可愛的顏值，所以在國內外有大量的攝影作品，像是在日本生活，活躍於各大動物園的義大利攝影師 **[Daniele Bragaglio](https://www.instagram.com/daniele.tokyo/)**，或是專注拍札幌圓山動物園小貓熊的 **[キャットテイル](https://www.instagram.com/cattail.sapporo/)**  等等，族繁不及備載；另外像是拍麻雀的 **[中野 さとる](https://www.instagram.com/onakan_s/)**，拍海洋生物的 **[中村庸夫](https://www.instagram.com/tsuneo_nakamura/)**，拍鴿子的 **[Caitlin Shann](https://www.instagram.com/featherunderground/)**，還有各式各樣的帳號，記錄著他們所愛的動物們，像是大象、老虎、鬣狗、兩棲類動物、昆蟲...等等。看到每種動物都有人這麼愛著，就覺得很感動啊！
 
 ## 以動物園為主
 
