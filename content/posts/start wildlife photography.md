@@ -8,6 +8,8 @@ type:
 - posts
 title: 開始動物攝影至今的一些心得
 weight: 10
+cover: "https://cdn-images-1.medium.com/max/1600/1*IHoS2hviA4gtSn3QMvefNQ.jpeg"
+coverCaption: "200mm  1/400s  f/5.6  ISO1600"
 series:
 - 生態攝影
 tags:

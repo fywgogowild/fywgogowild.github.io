@@ -8,6 +8,7 @@ type:
 - posts
 title: 陽台上的斑鳩
 weight: 10
+cover: "https://i.imgur.com/PrGOAYr.jpg"
 series:
 - 生態攝影
 tags:
@@ -15,8 +16,6 @@ tags:
 - 珠頸斑鳩
 - 生態攝影
 - 城市中的動物
-
-
 ---
 
 每天一早，阿珠鳩就會到陽台報到，看起來是一對感情很好的鳩夫婦。

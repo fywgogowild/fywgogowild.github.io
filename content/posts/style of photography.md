@@ -8,6 +8,8 @@ type:
 - posts
 title: 拍攝風格重要嗎？原來一直以來都搞錯重點
 weight: 10
+cover: "https://i.imgur.com/cZveWiP.jpg"
+coverCaption: "圖：文山森林公園的白頭翁，400mm  1/500s  f/5.6  ISO3200"
 series:
 - 攝影風格
 tags:
