@@ -1,8 +1,7 @@
 ---
 title: 開始動物攝影至今的一些心得
 date: 2020-10-19
-cover: https://cdn-images-1.medium.com/max/1600/1*IHoS2hviA4gtSn3QMvefNQ.jpeg
-coverCaption: 200mm  1/400s  f/5.6  ISO1600
+cover: /uploads/IMG_2932.webp
 tags:
   - 生態攝影
   - 器材設備
@@ -17,6 +16,8 @@ draft: false
 ## 器材
 
 手邊只有一台買了多年的老 APSC 機身 — Canon 550D， 還有一顆 50mm 定焦和 Sigma 17–50mm 的變焦鏡，完全不夠！要拍攝野生動物，長鏡頭是標配，所以我開始租借鏡頭，嘗試不同焦段，練練手感，等找到拍得順手的鏡頭後，再自己買一顆。
+
+200mm  1/400s  f/5.6  ISO1600
 
 前後共借過 18–200mm、70–200mm、100–400mm，用的最順的還是大白兔，不過今年因緣際會從一位軍事攝影師手上買了 400mm 定焦，入手人生第一顆砲，當然這又是後話了。
 
